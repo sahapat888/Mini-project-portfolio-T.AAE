@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติและทักษะ | Portfolio</title>
+    <link rel="stylesheet" href="css/portfolio.css"> <!-- ใช้ CSS ไฟล์เดิมได้เลย -->
+
+</head>
+<body>
+
+    <!-- แถบเมนูด้านบน (เหมือนหน้าแรก) -->
+    <header class="nav-bar">
+        <a href="index.html" class="logo">Port<span>folio</span></a>
+        <ul class="nav-link">
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="about.html" >ประวัติและทักษะ</a></li>
+            <li><a href="work.html" class="active">ผลงาน</a></li>
+            <li><a href="contact.html">ติดต่อ</a></li>
+        </ul>
+    </header>
+
+    <!-- เนื้อหาหลัก -->
+    <main class="container">
+        <!-- ส่วนผลงาน (Projects Section) -->
+<section id="projects" class="projects-section">
+    <div class="section-title">
+        <h1>ผลงานของ <span>ฉัน</span></h1>
+        <p>รวมโปรเจกต์และผลงานการพัฒนาเว็บแอปพลิเคชันและซอฟต์แวร์ที่ผ่านมา</p>
+    </div>
+
+    <!-- กรอบ Grid แสดงรายการผลงาน -->
+    <div class="projects-grid">
+        
+        <!-- โปรเจกต์ที่ 1 -->
+        <div class="project-card">
+            <div class="project-img">
+                <!-- ตัวอย่างการใส่รูปภาพพรีวิวโปรเจกต์ -->
+                <img src="image/pet.png" alt="Pet Guide Website">
+            </div>
+            <div class="project-content">
+                <h3>🐾 คู่มือดูแลสัตว์เลี้ยง (Pet Guide)</h3>
+                <p>
+                    เว็บไซต์แนะนำข้อมูลการเลี้ยงสัตว์ ออกแบบด้วยแนวคิด Responsive Design 
+                    เน้นการใช้งานง่าย จัดเลย์เอาต์แบบ Bento Grid ด้วย HTML5 และ CSS3 
+                    และตั้งค่า Deploy ขึ้น GitHub Pages สำเร็จ
+                </p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>GitHub Pages</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/sahapat888/Workshop-Web-052.git" target="_blank" class="project-btn">GitHub</a>
+                    <a href="https://sahapat888.github.io/Workshop-Web-052/Pets03/index.html" target="_blank" class="project-btn primary">Live Demo</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- โปรเจกต์ที่ 2 -->
+        <div class="project-card">
+            <div class="project-img">
+                <img src="image/HTML.png" alt="OOAD Class Diagram System">
+            </div>
+            <div class="project-content">
+                <h3>🌐 เว็บไซต์สอนใช้งาน HTML</h3>
+                <p>
+                    เว็บไซต์สอนใช้งาน HTML สำหรับผู้เริ่มต้นที่ต้องการเรียนรู้พื้นฐานการสร้างหน้าเว็บ
+    ครอบคลุมเรื่องโครงสร้างหน้าเว็บ การใช้งานแท็กต่าง ๆ และตัวอย่างการเขียนโค้ด
+    พร้อมสื่อความรู้แบบเข้าใจง่าย เพื่อให้ผู้เรียนสามารถนำไปประยุกต์ใช้ได้จริง
+</p>
+                </p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>GitHub Pages</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/sahapat888/Workshop-Web-052.git" target="_blank" class="project-btn">GitHub</a>
+                    <a href="https://sahapat888.github.io/Workshop-Web-052/" target="_blank" class="project-btn primary">Live Demo</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- โปรเจกต์ที่ 3 -->
+        <div class="project-card">
+            <div class="project-img">
+                <img src="images/project-3.jpg" alt="Portfolio Website">
+            </div>
+            <div class="project-content">
+                <h3>💻 Personal Portfolio Website</h3>
+                <p>
+                    เว็บไซต์ประวัติส่วนตัวและแสดงทักษะความสามารถ (Portfolio) 
+                    พัฒนาด้วย CSS Grid และ Flexbox รองรับการแสดงผลบนหน้าจอทุกขนาด (Responsive)
+                </p>
+                <div class="project-tags">
+                    <span>HTML5</span>
+                    <span>CSS Grid</span>
+                    <span>UI/UX</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/username/portfolio" target="_blank" class="project-btn">GitHub</a>
+                    <a href="#" class="project-btn primary">Live Demo</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+    </main>
+
+    <!-- ส่วนท้ายเว็บไซต์ -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Personal Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

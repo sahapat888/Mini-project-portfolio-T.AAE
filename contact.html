@@ -1,0 +1,114 @@
+!<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติและทักษะ | Portfolio</title>
+    <link rel="stylesheet" href="css/portfolio.css"> <!-- ใช้ CSS ไฟล์เดิมได้เลย -->
+
+</head>
+<body>
+
+    <!-- แถบเมนูด้านบน (เหมือนหน้าแรก) -->
+    <header class="nav-bar">
+        <a href="index.html" class="logo">Port<span>folio</span></a>
+        <ul class="nav-link">
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="about.html" >ประวัติและทักษะ</a></li>
+            <li><a href="work.html">ผลงาน</a></li>
+            <li><a href="contact.html" class="active">ติดต่อ</a></li>
+        </ul>
+    </header>
+
+    <!-- เนื้อหาหลัก -->
+    <main class="container">
+        <!-- ส่วนติดต่อเรา (Contact Section) -->
+<section id="contact" class="contact-section">
+    <div class="section-title">
+        <h1>ติดต่อ <span>ฉัน</span></h1>
+        <p>หากคุณมีคำถาม ข้อเสนอแนะ หรือสนใจร่วมงาน สามารถติดต่อได้ผ่านช่องทางด้านล่างนี้ครับ</p>
+    </div>
+
+    <div class="contact-container">
+        
+        <!-- ข้อมูลช่องทางติดต่อ (Left Column) -->
+        <div class="contact-info">
+            <h2>ช่องทางการติดต่อ</h2>
+            <p class="contact-desc">
+                ผมพร้อมเปิดรับโอกาสใหม่ๆ ในการเรียนรู้และการทำงานร่วมกัน 
+                สามารถทักมาพูดคุยหรือสอบถามข้อมูลเพิ่มเติมได้ตลอดเวลาครับ
+            </p>
+
+            <div class="info-list">
+                <!-- อีเมล -->
+                <div class="info-item">
+                    <div class="info-icon">📧</div>
+                    <div>
+                        <h3>อีเมล</h3>
+                        <p>sahapatbudsayakun@gmail.com</p>
+                    </div>
+                </div>
+
+                <!-- โทรศัพท์ / LINE -->
+                <div class="info-item">
+                    <div class="info-icon">📱</div>
+                    <div>
+                        <h3>เบอร์โทรศัพท์ / LINE</h3>
+                        <p>093-145-xxxx</p>
+                    </div>
+                </div>
+
+                <!-- สถานที่ / มหาวิทยาลัย -->
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div>
+                        <h3>ที่อยู่ / สถานศึกษา</h3>
+                        <p>ภาควิชาวิศวกรรมซอฟต์แวร์, นครปฐม, ประเทศไทย</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ลิงก์โซเชียลมีเดีย -->
+            <div class="social-links">
+                <a href="https://github.com/sahapat888" target="_blank" class="social-btn" title="GitHub">GitHub</a>
+                <a href="https://instagram.com/shp.bsyk" target="_blank" class="social-btn" title="Instagram">IG</a>
+                <a href="https://www.linkedin.com/in/%E0%B8%AA%E0%B8%AB%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B9%8C-%E0%B8%9A%E0%B8%B8%E0%B8%A9%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%B8%E0%B8%A5-4a8420442/?isSelfProfile=true" target="_blank" class="social-btn" title="LinkedIn">LinkedIn</a>
+            </div>
+        </div>
+
+        <!-- แบบฟอร์มส่งข้อความ (Right Column) -->
+        <div class="contact-form-wrapper">
+            <form class="contact-form" action="#" method="POST">
+                <h2>ส่งข้อความถึงผม</h2>
+                
+                <div class="form-group">
+                    <label for="name">ชื่อของคุณ</label>
+                    <input type="text" id="name" name="name" placeholder="กรอกชื่อ-นามสกุลของคุณ" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">อีเมลของคุณ</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">ข้อความ</label>
+                    <textarea id="message" name="message" rows="5" placeholder="พิมพ์ข้อความที่คุณต้องการติดต่อ..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">ส่งข้อความ</button>
+            </form>
+        </div>
+
+    </div>
+</section>
+
+    </main>
+
+    <!-- ส่วนท้ายเว็บไซต์ -->
+    <footer class="site-footer">
+        <p>&copy; Personal Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
