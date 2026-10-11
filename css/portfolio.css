@@ -649,14 +649,14 @@ transition ทำให้สีขอบและเงาเปลี่ยน
    Responsive
 ========================== */
 /* ipad */
-@media (max-width: 768px) {
+@media (max-width: 640px) {
     .contact-container {
         grid-template-columns: 1fr;
     }
 }
 /* บนจอไม่เกิน 768px ให้ข้อมูลติดต่อและแบบฟอร์มเรียงเป็นคอลัมน์เดียว */
 
-@media (max-width: 700px) {
+@media (max-width: 640px) {
     .nav-bar {
         min-height: 72px;
         flex-wrap: wrap;
